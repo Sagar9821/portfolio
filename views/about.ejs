@@ -1,0 +1,45 @@
+<!-- views/about.ejs -->
+<%- include('layouts/main-layout', { title: 'About' }) %>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        img {
+            border-radius: 50%;
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <section>
+        <img src="images/intro-bg.jpg" alt="Profile Image">
+        <h1>Krishna Sagar</h1>
+        <p>I am a passionate and dedicated individual working as a Software Engineer. With a strong background in Web site developement using express node, I strive to [briefly describe your goal or mission]. My skills include [List a few key skills or areas of expertise]. I believe in the power of technology to [Your Belief or Vision].</p>
+        <h3>Contact Information</h3>
+        <p>Email: krishnasagar@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        <!-- Add more contact information or relevant links -->
+    
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Portfolio</p>
+    </footer>
+</body>

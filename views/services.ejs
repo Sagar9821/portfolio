@@ -1,0 +1,66 @@
+<%- include('layouts/main-layout', { title: 'Service' }) %>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .service {
+            margin-bottom: 30px;
+        }
+
+        .service img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Our Services</h1>
+    </header>
+
+    <section>
+        <div class="service">
+            <img src="programming-service.jpg" alt="Programming Service Image">
+            <h2>General Programming</h2>
+            <p>Bespoke software solutions tailored to your needs.</p>
+        </div>
+
+        <div class="service">
+            <img src="web-development-service.jpg" alt="Web Development Service Image">
+            <h2>Web Development</h2>
+            <p>Design and development of responsive and user-friendly websites.</p>
+        </div>
+
+        <div class="service">
+            <img src="mobile-apps-service.jpg" alt="Mobile Apps Service Image">
+            <h2>Mobile Apps</h2>
+            <p>Creation of innovative and intuitive mobile applications.</p>
+        </div>
+
+        <!-- Add more services with images and descriptions as needed -->
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Portfolio</p>
+    </footer>
+</body>
