@@ -2,7 +2,8 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000; // Use Heroku-provided port or default to 3000
+
 
 // Set EJS as the templating engine
 app.set('view engine', 'ejs');
@@ -34,6 +35,6 @@ app.get('/services', (req, res) => {
     res.render('services');
 });
 
-app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`Server is running at http://localhost:${PORT}`);
 });
